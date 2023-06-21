@@ -66,7 +66,7 @@ const Login = () => {
                     <p className='text-danger'>{error}</p> :
                     null
                 }
-                <Button type='submit'>Login</Button>
+                <Button type='submit' sx={{ textDecoration: 'none', color: 'white' }}>Login</Button>
             </Box>
         </Box>
     );
